@@ -1,0 +1,29 @@
+# Systemowe (Windows/macOS)
+Thumbs.db
+.DS_Store
+
+# Edytory i IDE
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Zależności (jeśli używasz np. SASS lub narzędzi npm)
+node_modules/
+.npm/
+
+# Pliki tymczasowe i logi
+*.log
+.temp/
+.tmp/
+
+# Pliki konfiguracyjne z wrażliwymi danymi (np. hasła do FTP)
+.env
+config.php
+credentials.*
+
+# Foldery budowania (jeśli używasz procesorów CSS/JS, np. Gulp, Webpack)
+dist/
+build/
+.sass-cache/
